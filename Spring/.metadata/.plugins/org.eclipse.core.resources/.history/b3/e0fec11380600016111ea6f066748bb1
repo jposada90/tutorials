@@ -18,9 +18,8 @@ public class Coche
 	}
 	
 	 public void init(){
-	      System.out.println("Creando coche");
+	      System.out.println("Bean is going through init.");
     }
-	 
 	 public void destroy(){
 	      System.out.println("Bean will destroy now.");
 	 }

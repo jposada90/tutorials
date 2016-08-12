@@ -20,10 +20,10 @@ public class TallerMecanico
 				
 		mecanico.reparar(coche1,coche1.getId());
 		
-		Coche coche2 =  (Coche) applicationContext.getBean("coche"); //es el mismo bean que coche1 porque esta definido como singleton
-		coche2.setId(2);
-	
-		mecanico.reparar(coche2,coche2.getId());
+		//Coche coche2 =  (Coche) applicationContext.getBean("coche");
+		//coche2.setId(2);
+		
+		//mecanico.reparar(coche2,coche2.getId());
 		
 		applicationContext.registerShutdownHook();
 	}

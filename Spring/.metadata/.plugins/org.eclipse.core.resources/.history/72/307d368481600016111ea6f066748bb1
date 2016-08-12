@@ -20,7 +20,6 @@ public class Coche
 	 public void init(){
 	      System.out.println("Creando coche");
     }
-	 
 	 public void destroy(){
 	      System.out.println("Bean will destroy now.");
 	 }
