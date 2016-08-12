@@ -1,0 +1,22 @@
+package springtutorial.example00;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+/**
+ * 
+ *
+ */
+public class TallerMecanico 
+{
+	
+	public static void main(String[] args){
+		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("/applicationContext00.xml");
+		
+		//Coche coche =  (Coche) applicationContext.getBean("coche");
+		Mecanico mecanico = (Mecanico) applicationContext.getBean("mecanico");
+		mecanico.reparar(coche);
+	
+	}
+	
+}

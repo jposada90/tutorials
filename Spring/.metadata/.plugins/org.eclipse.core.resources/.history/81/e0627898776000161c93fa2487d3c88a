@@ -1,0 +1,14 @@
+package springtutorial.example00;
+
+/**
+ * 
+ *
+ */
+public class TallerMecanico 
+{
+	
+	public static void main(String[] args){
+	
+	}
+	
+}

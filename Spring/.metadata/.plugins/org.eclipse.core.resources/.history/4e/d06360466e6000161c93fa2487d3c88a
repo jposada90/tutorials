@@ -1,0 +1,13 @@
+package springtutorial.example00;
+
+/**
+ * 
+ *
+ */
+public class Mecanico 
+{
+    public static void reparar(Coche coche)
+    {
+        System.out.println( "Reparando coche" );
+    }
+}

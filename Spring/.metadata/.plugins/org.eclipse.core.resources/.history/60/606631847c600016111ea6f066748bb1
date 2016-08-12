@@ -1,0 +1,11 @@
+package springtutorial.example00;
+
+/**
+ * Coche
+ *
+ */
+public class Coche 
+{
+	private int id;
+	
+}
