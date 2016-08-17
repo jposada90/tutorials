@@ -3,12 +3,6 @@ package springtutorial.innerBeans;
 public class TextEditor {
 	   private SpellChecker spellChecker;
 
-	  
-	   public TextEditor(SpellChecker spellChecker){
-		      System.out.println("Inside TextEditor constructor." );
-		      this.spellChecker = spellChecker;
-		   }
-	   
 	   // a setter method to inject the dependency.
 	   public void setSpellChecker(SpellChecker spellChecker) {
 	      System.out.println("Inside setSpellChecker." );

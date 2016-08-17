@@ -10,10 +10,7 @@ public class MainApp {
      
 	   //First inheritance example
 	   // ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext02.xml");
-	   
-	   //Example with annotation
-	   ApplicationContext context = 
-			   new AnnotationConfigApplicationContext(TextEditorConfig.class);
+
       TextEditor te = (TextEditor) context.getBean("textEditor");
 
       te.spellCheck();
