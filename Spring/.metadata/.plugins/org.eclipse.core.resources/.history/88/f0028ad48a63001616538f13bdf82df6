@@ -1,0 +1,5 @@
+package springtutorial.innerBeans;
+
+public class SpellChecker {
+
+}

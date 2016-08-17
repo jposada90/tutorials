@@ -22,7 +22,7 @@ public class Coche
     }
 	 
 	 public void destroy(){
-	      System.out.println("Bean will destroy now.");
+	      System.out.println("Coche destruido");
 	 }
 	 
 }
