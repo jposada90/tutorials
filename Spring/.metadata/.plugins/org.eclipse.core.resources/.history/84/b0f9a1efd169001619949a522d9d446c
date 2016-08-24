@@ -1,0 +1,5 @@
+package com.Springtutorial.HelloWord.Controller;
+
+public class HelloWordController {
+
+}

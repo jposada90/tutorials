@@ -1,0 +1,13 @@
+1472025949213	Rename type 'HelloWordcontroller'
+1472025999972	Rename package 'Controller'
+1472026107117	Delete element
+1472026162371	Rename compilation unit 'HelloWordController.java'
+1472027135492	Move 'helloword.xml' to 'WEB-INF'
+1472027144715	Move 'helloword.xml' to 'views'
+1472027191726	Rename resource 'helloword.xml'
+1472027584556	Delete element
+1472027597928	Rename resource 'NewFile.jsp'
+1472027700825	Rename resource 'helloWord.jsp'
+1472027875008	Rename resource 'helloword.jsp'
+1472029066107	Rename resource 'dispatcher-servlet.xml'
+1472029704180	Rename package 'springtutorial.helloword.controller'
